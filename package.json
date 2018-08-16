@@ -1,6 +1,6 @@
 {
   "name": "check-single-proptype",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check single proptype on component, errors returned instead of logged.",
   "main": "index.js",
   "scripts": {
