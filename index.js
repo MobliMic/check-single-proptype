@@ -32,7 +32,7 @@ function checkSinglePropType(propType, propTypeName, values, location, component
         let error;
 
         if (typeof propType !== 'function') {
-            return (name + ': ' + location + ' type `' + typeSpecName + '` is ' +
+            return (name + ': ' + location + ' type `' + propTypeName + '` is ' +
                 'invalid; it must be a function, usually from React.PropTypes.');
         } else {
             // Prop type validation may throw. In case they do, catch and save the
